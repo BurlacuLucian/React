@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../UI/Card";
 import classes from "./UsersList.module.css";
-import ButtonDel from "../UI/ButtonDel";
+import RemoveButton from "../UI/RemoveButton";
 
 const UsersList = ({users, onRemoveUser}) => {
 
@@ -15,13 +15,13 @@ const UsersList = ({users, onRemoveUser}) => {
           <li key={user.id}>
             {user.name} ({user.age} years old)
 
-            <ButtonDel 
+            <RemoveButton 
               className="button" 
               type="submit" 
               onClick={() => onRemoveUser(user.id)}
             >
               close
-            </ButtonDel>
+            </RemoveButton>
           </li>
         ))}
       </ul>

@@ -1,7 +1,7 @@
 import React from "react";
-import classes from "./ButtonDel.module.css";
+import classes from "./RemoveButton.module.css";
 
-const ButtonDel = props => {
+const RemoveButton = props => {
     return <button className={classes.button} 
     type={props.type || 'button'} 
     onClick={props.onClick}
@@ -10,4 +10,4 @@ const ButtonDel = props => {
     </button>
 };
 
-export default ButtonDel;
+export default RemoveButton;
