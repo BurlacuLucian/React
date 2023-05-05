@@ -41,7 +41,7 @@
 }
 
 .nav button:hover{
-  background: linear-gradient(to left, rgb(95, 48, 95), rgb(107, 38, 156), blue, rgb(133, 183, 227), rgb(118, 75, 150), rgb(218, 53, 53));
+  background: linear-gradient(to left, rgb(95, 48, 95), rgb(107, 38, 156), blue, rgb(133, 183, 227), rgb(118, 75, 150), rgb(80, 48, 88));
 }
 .nav button:active {
   color: #ffffff;
